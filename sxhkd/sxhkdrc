@@ -16,22 +16,21 @@ super + Escape
 
 #
 # bspwm hotkeys
-#
 
 super + shift + e
-	pcmanfm
+	nemo
+super + shift + b
+	firefox-esr
 super + shift + v
 	pavucontrol
-super + shift + b
-	chromium
-super + shift + x
-	xkill
-super + Print
-	flameshot gui 
+super + shift + u
+	brightnessctl set 10%-
+super + shift + i
+	brightnessctl set 10%+
+super + shift + h
+	kitty -e htop
 super + shift + 
 super + shift + 
-super + shift + 
-
 
 # quit/restart bspwm
 super + alt + {q,r}
